@@ -1,378 +1,288 @@
-# 🌲 Smart Forest Environmental Monitoring & Early Warning System
+<h1 align="center">Hi 👋, I'm Areeba Shahid</h1>
+
+<h3 align="center">
+Computer Science Graduate | AI Engineer | Computer Vision Developer | IoT Enthusiast
+</h3>
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
-![Flask](https://img.shields.io/badge/Flask-Backend-black?style=for-the-badge&logo=flask)
-![Arduino](https://img.shields.io/badge/Arduino-Uno-00979D?style=for-the-badge&logo=arduino)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql)
-![HTML5](https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-Interactive-F7DF1E?style=for-the-badge&logo=javascript)
-![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+I'm passionate about Artificial Intelligence, Computer Vision, Deep Learning, Machine Learning, and IoT. I enjoy building intelligent systems that solve real-world problems using modern technologies.
 
 </p>
 
 ---
 
-# 📌 Project Overview
+# 👩‍💻 About Me
 
-The **Smart Forest Environmental Monitoring & Early Warning System** is an IoT-based solution designed to continuously monitor environmental conditions in forest areas and provide early warnings for hazardous situations.
+🎓 Computer Science Graduate from **University of Engineering & Technology (UET), Taxila**
 
-The system collects real-time data from multiple environmental sensors connected to an **Arduino Uno**, including:
+💡 Passionate about
 
-- 🌡 Temperature
-- 💧 Humidity
-- 🌫 Carbon Dioxide (CO₂)
-- 🔥 Fire Detection
+- Artificial Intelligence
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Internet of Things (IoT)
+- Data Analytics
 
-The collected data is transmitted to a **Flask REST API**, stored in a **PostgreSQL database**, and displayed on a responsive **web dashboard** that enables users to monitor sensor values, visualize trends, and receive alerts whenever dangerous conditions are detected.
+🚀 Currently exploring
 
-This project demonstrates the integration of **Embedded Systems**, **Internet of Things (IoT)**, **Backend Development**, **Database Management**, and **Web Development** into a complete real-world monitoring solution.
+- Large Language Models (LLMs)
+- Generative AI
+- MLOps
+- Cloud AI
 
----
+💼 Interested Roles
 
-# 🚀 Features
-
-- 🌲 Real-Time Environmental Monitoring
-- 🌡 Live Temperature Monitoring
-- 💧 Humidity Monitoring
-- 🌫 CO₂ Level Monitoring
-- 🔥 Fire Detection
-- 🚨 Early Warning Alert System
-- 📊 Interactive Dashboard
-- 📈 Historical Data Visualization
-- 🔐 User Authentication
-- 👤 Admin Dashboard
-- 🗄 PostgreSQL Database Integration
-- 🌐 Flask REST API
-- 📱 Responsive Web Interface
+- AI Engineer
+- Machine Learning Engineer
+- Computer Vision Engineer
+- Python Developer
+- Data Scientist
 
 ---
 
-# 🛠 Technology Stack
+# 🛠 Technical Skills
 
-## Hardware
-
-- Arduino Uno
-- MQ Gas Sensor (CO₂ / Smoke)
-- Temperature Sensor
-- Humidity Sensor
-- Jumper Wires
-- Breadboard
-- USB Communication
-
----
-
-## Software
+### Languages
 
 - Python
-- Flask
-- PostgreSQL
-- HTML5
-- CSS3
-- JavaScript
+- C++
+- Java
+- SQL
+- HTML
+- CSS
 
----
+### AI & Machine Learning
 
-## Development Tools
+- Machine Learning
+- Deep Learning
+- CNN
+- ANN
+- Transfer Learning
+- TensorFlow
+- OpenCV
+- YOLOv11
+- Scikit-Learn
+- NumPy
+- Pandas
+- Matplotlib
 
-- Arduino IDE
-- Visual Studio Code
-- pgAdmin
+### Data Analytics
+
+- Tableau
+- Power BI
+- Excel
+
+### IoT
+
+- Wireless Sensor Networks
+- Arduino
+- ESP32
+- Sensors
+- Environmental Monitoring
+
+### Tools
+
 - Git
 - GitHub
+- VS Code
+- Google Colab
+- Jupyter Notebook
 
 ---
 
-# ⚙ System Architecture
+# 🚀 Featured Projects
 
-```
-                     Environmental Sensors
-      (Temperature • Humidity • CO₂ • Fire)
-                         │
-                         ▼
-                  Arduino Uno Board
-                         │
-                         ▼
-                   Flask REST API
-                         │
-                         ▼
-                 PostgreSQL Database
-                         │
-                         ▼
-                Interactive Web Dashboard
-                         │
-                         ▼
-                  Users / Administrators
-```
+## 🌲 IoT-Based Forest Monitoring System (Final Year Project)
 
----
+An intelligent forest monitoring system using IoT and Wireless Sensor Networks.
 
-# 📂 Project Structure
+### Features
 
-```
-Smart-Forest-Environmental-Monitoring-System
-│
-├── Hardware
-│   ├── Arduino_Code.ino
-│   ├── Hardware_Setup.jpg
-│   └── Circuit_Diagram.png
-│
-├── Backend
-│   ├── app.py
-│   ├── requirements.txt
-│
-├── Frontend
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── Database
-│   └── forestmonitoring.sql
-│
-├── Documentation
-│   └── Project_Report.pdf
-│
-├── Images
-│   ├── Hardware.jpg
-│   ├── Dashboard.png
-│   ├── Login.png
-│   ├── Alerts.png
-│   └── Architecture.png
-│
-└── README.md
-```
+✔ Temperature Monitoring
+
+✔ Humidity Monitoring
+
+✔ CO₂ Monitoring
+
+✔ Forest Fire Early Detection
+
+✔ Wireless Sensor Nodes
+
+✔ Live Dashboard
+
+✔ Cloud Connectivity
+
+### Technologies
+
+Python • IoT • Wireless Sensor Networks • ESP32 • Sensors
 
 ---
 
-# 📷 Hardware Setup
+## 📸 Hardware Setup
 
-Replace the image below after uploading your hardware picture.
+The following image shows the hardware implementation of the Forest Monitoring System.
 
-```text
-Images/Hardware.jpg
-```
+<p align="center">
 
-```markdown
-![Hardware Setup](Images/Hardware.jpg)
-```
+<img src="WhatsApp%20Image%202026-07-14%20at%204.34.29%20PM.jpeg" width="700">
+
+</p>
 
 ---
 
-# 📷 Dashboard Preview
+## 🎥 Project Demonstration
 
-Upload dashboard screenshots inside the **Images** folder.
+Click below to watch the project demonstration video.
 
-```markdown
-![Dashboard](Images/Dashboard.png)
-```
+👉 **[▶ Watch Project Video](WhatsApp%20Video%202026-07-14%20at%204.35.23%20PM.mp4)**
 
 ---
 
-# 📷 Login Page
+## 📊 Dashboard
 
-```markdown
-![Login](Images/Login.png)
-```
+Real-time dashboard for monitoring environmental parameters.
 
----
+<p align="center">
 
-# 📷 Alert System
+<img src="dashboard_picture.png" width="850">
 
-```markdown
-![Alerts](Images/Alerts.png)
-```
+</p>
 
 ---
 
-# 🗄 Database
+## 🚗 YOLOv11 Traffic Counter
 
-The project uses **PostgreSQL** for storing:
+Developed a real-time traffic counting system using YOLOv11 and OpenCV.
 
-- Sensor Readings
-- Temperature Data
-- Humidity Data
-- CO₂ Levels
-- Fire Alerts
-- User Accounts
-- Historical Records
+Features
 
----
+- Vehicle Detection
+- Vehicle Counting
+- Multi-Class Detection
+- Live Video Processing
 
-# 🌐 REST API
+Technologies
 
-The Flask backend provides APIs for:
-
-- Receiving sensor data
-- Storing readings
-- Fetching historical records
-- User authentication
-- Dashboard data
-- Alert generation
+YOLOv11 • OpenCV • Python
 
 ---
 
-# 📊 Dashboard Features
+## 😊 Face Detection & Recognition
 
-The web dashboard provides:
+Real-time Face Detection and Recognition using OpenCV.
 
-- Live Sensor Monitoring
-- Interactive Charts
-- Environmental Statistics
-- Fire Detection Status
-- CO₂ Monitoring
-- Temperature Trends
-- Humidity Trends
-- Alert Notifications
-- User Login
-- Administrator Controls
+Features
+
+- Face Detection
+- Face Recognition
+- Webcam Integration
 
 ---
 
-# 🔥 Fire Detection
+## 👤 Gender Detection Using Deep Learning
 
-The system continuously monitors fire-related conditions.
+CNN model trained to classify gender from facial images.
 
-Whenever dangerous values exceed predefined thresholds:
+Technologies
 
-- Fire Alert is generated
-- Dashboard updates immediately
-- Alert is stored in database
+TensorFlow • CNN • Python
 
 ---
 
-# 🌫 CO₂ Monitoring
+## 📊 HR Analytics Dashboard
 
-The MQ Gas Sensor continuously monitors CO₂ concentration.
-
-The dashboard displays:
-
-- Current CO₂ Level
-- Historical CO₂ Data
-- Alert Status
+Interactive HR Dashboard developed using Tableau.
 
 ---
 
-# 🌡 Temperature Monitoring
+## 🤖 Machine Learning Projects
 
-The system records temperature in real time.
+Repository containing multiple ML algorithms.
 
-Users can visualize:
+- Logistic Regression
 
-- Current Temperature
-- Temperature Trends
-- Historical Records
+- Decision Tree
 
----
+- KNN
 
-# 💧 Humidity Monitoring
+- Random Forest
 
-Humidity values are continuously monitored and stored.
-
-The dashboard displays:
-
-- Current Humidity
-- Historical Humidity
-- Trend Analysis
+- Artificial Neural Networks
 
 ---
 
-# 💡 Future Improvements
+## 🐍 Python Learning Repository
 
-- 📱 Android Mobile Application
-- ☁ Cloud Deployment
-- 📩 Email Notifications
-- 📲 SMS Alerts
-- 📍 GPS-Based Node Tracking
-- 🤖 Machine Learning for Fire Prediction
-- 📡 Wireless Sensor Network Expansion
-- 🌍 Multi-location Monitoring
+Python practice, mini projects, automation scripts and exercises.
 
 ---
 
-# 📈 Skills Demonstrated
+## 💾 SQL Bootcamp
 
-- Internet of Things (IoT)
-- Embedded Systems
-- Arduino Programming
-- Sensor Integration
-- Python Development
-- Flask API Development
-- PostgreSQL Database Design
-- HTML5
-- CSS3
-- JavaScript
-- Dashboard Development
-- REST API Design
-- Database Management
-- Git & GitHub
-- Problem Solving
+SQL queries including
+
+- Joins
+- Views
+- Aggregations
+- Stored Procedures
+- Database Design
 
 ---
 
-# 📚 Installation
+# 📈 GitHub Stats
 
-### Clone Repository
+<p align="center">
 
-```bash
-git clone https://github.com/YOUR_USERNAME/Smart-Forest-Environmental-Monitoring-System.git
-```
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=AreebaShahid6&show_icons=true&theme=tokyonight"/>
 
----
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AreebaShahid6&layout=compact&theme=tokyonight"/>
 
-### Install Python Packages
-
-```bash
-pip install -r requirements.txt
-```
+</p>
 
 ---
 
-### Run Flask Server
+# 🔥 GitHub Streak
 
-```bash
-python app.py
-```
+<p align="center">
 
----
+<img src="https://streak-stats.demolab.com?user=AreebaShahid6&theme=tokyonight"/>
 
-### Open Website
-
-```
-http://localhost:5000
-```
+</p>
 
 ---
 
-# 🤝 Contributing
+# 💻 Languages & Tools
 
-Contributions are welcome!
+<p align="center">
 
-Feel free to fork this repository, create a new branch, and submit a pull request.
+<img src="https://skillicons.dev/icons?i=python,cpp,java,git,github,tensorflow,opencv,mysql,vscode,arduino"/>
 
----
-
-# 📄 License
-
-This project is available under the MIT License.
+</p>
 
 ---
 
-# 👩‍💻 Author
+# 📫 Contact Me
 
-## **Areeba Shahid**
+📧 **Email**
 
-**Machine Learning | Artificial Intelligence | IoT | Software Engineering**
+shahidareeba922@gmail.com
 
-📧 Email: your-email@example.com
+🔗 **LinkedIn**
 
-🔗 GitHub: https://github.com/AreebaShahid6
-
-🔗 LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN
+https://www.linkedin.com/in/areeba-shahid-1b53b2317/
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a Star!
+# 🌟 Fun Fact
 
-It helps support the project and encourages future improvements.
+I enjoy solving real-world problems using AI, Computer Vision, and IoT technologies while continuously learning emerging technologies.
+
+---
+
+# ⭐ Thank You
+
+If you like my projects, don't forget to ⭐ them!
+
+Happy Coding 🚀
